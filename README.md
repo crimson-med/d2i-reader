@@ -2,6 +2,17 @@
 
 Simple typescript based d2i dofus reader
 
+# installation
+
+```sh
+yarn add d2i-reader
+```
+
+or
+
+```sh
+npm install d2i-reader
+```
 # usage
 
 **async / await**
