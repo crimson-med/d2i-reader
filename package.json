@@ -1,6 +1,6 @@
 {
   "name": "d2i-reader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple TypeScript Dofus d2i file reader",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
