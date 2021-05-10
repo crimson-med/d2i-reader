@@ -13,7 +13,7 @@
   ],
   "author": "Burlet Mederic <mederic.burlet@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@argus-inc/fluct": "https://github.com/argus-inc/fluct",
     "@types/node": "^15.0.2"
