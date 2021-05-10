@@ -1,0 +1,39 @@
+{
+  "name": "d2i-reader",
+  "version": "0.0.1",
+  "description": "Simple TypeScript Dofus d2i file reader",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "dofus",
+    "parser",
+    "d2i",
+    "reverse",
+    "engineer"
+  ],
+  "author": "Burlet Mederic <mederic.burlet@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@argus-inc/fluct": "https://github.com/argus-inc/fluct",
+    "@types/node": "^15.0.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "dev": "nodemon src/index.ts --ignore \"test.json\"",
+    "start": "ts-node src/index.ts",
+    "prepare": "yarn build",
+    "version": "git add -A src",
+    "postversion": "git push & git push --tags",
+    "test": "jest --runInBand --config jestconfig.json",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  }
+}
